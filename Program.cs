@@ -66,7 +66,8 @@ namespace Horse
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string horse = showHorses();
+            Console.WriteLine(Race(horse));
         }
     }
 }
