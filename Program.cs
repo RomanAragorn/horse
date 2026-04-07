@@ -7,7 +7,7 @@ namespace Horse
         static string showHorses()
         {
             Console.WriteLine("Choose a horse!");
-            string[] horses = { "Tokai Teio", "Symboli Rudolf", "Kitasan Black", "Oguri Cap", "Gentildonna", "Mejiro Palmer", "Agnes Digital", "Nishino Flower", "Agnes Tachyon" };
+            string[] horses = { "Tokai Teio", "Symboli Rudolf", "Kitasan Black", "Oguri Cap", "Gentildonna", "Mejiro Palmer", "Agnes Digital", "Nishino Flower" };
 
             for (int i = 0; i < horses.Length; i++)
             {
